@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup Form</title>
+    <style>
+        body{
+            background-color: rgb(199, 217, 217);
+            text-align: center;
+        }
+        div{
+            background-color: aliceblue;
+            height: 400px;
+            width: 600px;
+            padding-top: 10%;
+            margin: auto;
+            border: 3px solid;
+            border-radius: 15%;
+
+        }
+    </style>
+</head>
+<body>
+   <div><form action="">
+    <h1 style="color: blue;" >Facebook</h1>
+    <label for="">First Name:</label>
+    <input type="name"  placeholder="Enter First Name"><br>
+    <label for="">Last Name:</label>
+    <input type="name" placeholder="Enter Last Name"><br>
+    <label for="">Email:</label>
+    <input type="email" name="Email" id="Email" placeholder="Enter your email" required><br>
+    <label for="">Phone Number:</label>
+    <input type="number" name="Phone Number" id="phone number" value="phone number" placeholder="Enter your Number" minlength="11"><br>
+    <label for="">Date Of Birth</label>
+    <input type="date" value="date" ><br>
+    <label for="">Creat Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter password" minlength="4" required><br>
+    <label for="">Confirm Password</label>
+    <input type="password" name="password" id="password" placeholder="conirm password"><br>
+    <label for="gender">Select Gender</label>
+    <select>
+        <option value="select gender">--select Gender--</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="other">other</option>
+    </select><br>
+    <label for="Select Country">Select Country</label>
+    <select>
+        <option value="country">---country---</option>
+        <option value="Pakistan">pakistan</option>
+        <option value="india">india</option>
+        <option value="saudia">saudia</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Iran">Iran</option>
+        <option value="Sham">Sham</option>
+        <option value="Turky">Turky</option>
+        <option value="united states">united states</option>
+    </select><br>
+    <label for="Gender">Select Gender</label><br>
+    <label for="Gender">Male</label>
+    <input type="radio" name="Gender" value="Male">
+    <label for="Gender">Female</label>
+    <input type="radio" name="Gender" value="Female"><br>
+    <label for="ch">privacy</label>
+    <input type="checkbox" name="ch" >I have read carefully.... <br>
+    <label for="file">ID front</label>
+    <input type="file" name="file" value="chose file"> <br>
+    <button type="submit">Signup</button>
+    
+    </form></div>
+</body>
+</html>
